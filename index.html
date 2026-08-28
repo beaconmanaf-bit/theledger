@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Ledger — Fundamental Screener</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=IBM+Plex+Mono:wght@400;500;600&family=Public+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --ink:#0a1120;
+    --panel:#101a30;
+    --panel-2:#0d1526;
+    --line: rgba(216,180,92,0.14);
+    --line-soft: rgba(233,237,245,0.08);
+    --text:#e9edf5;
+    --text-dim:#8b98b4;
+    --text-faint:#5b6987;
+    --gold:#d8b45c;
+    --gold-soft: rgba(216,180,92,0.16);
+    --teal:#33c9a6;
+    --teal-soft: rgba(51,201,166,0.14);
+    --coral:#e2665a;
+    --coral-soft: rgba(226,102,90,0.14);
+    --radius: 10px;
+    --serif: 'Fraunces', serif;
+    --sans: 'Public Sans', sans-serif;
+    --mono: 'IBM Plex Mono', monospace;
+  }
+  *{box-sizing:border-box;}
+  html,body{margin:0;padding:0;}
+  body{
+    background:
+      radial-gradient(1200px 600px at 15% -10%, rgba(216,180,92,0.07), transparent 60%),
+      radial-gradient(1000px 500px at 100% 0%, rgba(51,201,166,0.05), transparent 55%),
+      var(--ink);
+    color:var(--text);
+    font-family:var(--sans);
+    -webkit-font-smoothing:antialiased;
+    min-height:100vh;
+  }
+  ::selection{ background:var(--gold-soft); color:var(--text); }
+
+  a{color:inherit;}
+
+  /* ---------- Header ---------- */
+  header.masthead{
+    padding:38px 5vw 22px;
+    border-bottom:1px solid var(--line-soft);
+    display:flex;
+    justify-content:space-between;
+    align-items:flex-end;
+    flex-wrap:wrap;
+    gap:16px;
+  }
+  .masthead-left .eyebrow{
+    font-family:var(--mono);
+    letter-spacing:0.18em;
+    text-transform:uppercase;
+    font-size:11px;
+    color:var(--gold);
+    margin:0 0 10px;
+  }
+  .masthead-left h1{
+    font-family:var(--serif);
+    font-weight:600;
+    font-size:clamp(32px,4.4vw,52px);
+    margin:0;
+    letter-spacing:-0.01em;
+    line-height:1.02;
+  }
+  .masthead-left h1 em{
+    font-style:italic;
+    font-weight:400;
+    color:var(--teal);
+  }
+  .masthead-left p.sub{
+    color:var(--text-dim);
+    font-size:14.5px;
+    margin:10px 0 0;
+    max-width:520px;
+    line-height:1.5;
+  }
+  .masthead-right{
+    text-align:right;
+    font-family:var(--mono);
+    font-size:12px;
+    color:var(--text-faint);
+    line-height:1.7;
+  }
+  .masthead-right .num{ color:var(--text); font-size:15px; }
+
+  /* ---------- Ticker ---------- */
+  .ticker-wrap{
+    border-bottom:1px solid var(--line-soft);
+    background:var(--panel-2);
+    overflow:hidden;
+    position:relative;
+    white-space:nowrap;
+  }
+  .ticker-wrap::before, .ticker-wrap::after{
+    content:"";
+    position:absolute; top:0; bottom:0; width:60px; z-index:2; pointer-events:none;
+  }
+  .ticker-wrap::before{ left:0; background:linear-gradient(90deg, var(--panel-2), transparent); }
+  .ticker-wrap::after{ right:0; background:linear-gradient(270deg, var(--panel-2), transparent); }
+  .ticker-track{
+    display:inline-flex;
+    align-items:center;
+    gap:0;
+    animation: scroll-ticker 55s linear infinite;
+    padding:10px 0;
+  }
+  .ticker-wrap:hover .ticker-track{ animation-play-state:paused; }
+  @keyframes scroll-ticker{
+    from{ transform:translateX(0); }
+    to{ transform:translateX(-50%); }
+  }
+  .tick{
+    font-family:var(--mono);
+    font-size:12.5px;
+    display:inline-flex;
+    align-items:center;
+    gap:8px;
+    padding:0 22px;
+    border-right:1px solid var(--line-soft);
+    color:var(--text-dim);
+  }
+  .tick b{ color:var(--text); font-weight:600; }
+  .tick .chg{ font-weight:600; }
+  .up{ color:var(--teal); }
+  .down{ color:var(--coral); }
+
+  /* ---------- Layout ---------- */
+  main{
+    padding:30px 5vw 70px;
+    display:grid;
+    grid-template-columns:250px 1fr;
+    gap:28px;
+    align-items:start;
+  }
+  @media (max-width:880px){
+    main{ grid-template-columns:1fr; }
+  }
+
+  /* ---------- Filter rail ---------- */
+  .rail{
+    background:var(--panel);
+    border:1px solid var(--line-soft);
+    border-radius:var(--radius);
+    padding:20px 18px 22px;
+    position:sticky;
+    top:20px;
+  }
+  .rail h3{
+    font-family:var(--mono);
+    text-transform:uppercase;
+    letter-spacing:0.12em;
+    font-size:11px;
+    color:var(--text-faint);
+    margin:0 0 14px;
+    display:flex; justify-content:space-between; align-items:center;
+  }
+  .rail .reset-btn{
+    font-family:var(--mono); font-size:10.5px; letter-spacing:0.04em;
+    color:var(--gold); background:none; border:none; cursor:pointer; padding:0;
+    text-transform:none;
+  }
+  .field{ margin-bottom:18px; }
+  .field label{
+    display:block; font-size:12px; color:var(--text-dim); margin-bottom:7px;
+  }
+  .field .val{ color:var(--gold); font-family:var(--mono); }
+  input[type=text], select{
+    width:100%;
+    background:var(--panel-2);
+    border:1px solid var(--line-soft);
+    color:var(--text);
+    border-radius:7px;
+    padding:9px 10px;
+    font-family:var(--sans);
+    font-size:13.5px;
+    outline:none;
+    transition:border-color .15s;
+  }
+  input[type=text]:focus, select:focus{ border-color:var(--gold); }
+  input[type=range]{
+    -webkit-appearance:none; width:100%; height:3px; background:var(--line-soft);
+    border-radius:2px; outline:none; margin-top:4px;
+  }
+  input[type=range]::-webkit-slider-thumb{
+    -webkit-appearance:none; width:14px; height:14px; border-radius:50%;
+    background:var(--gold); cursor:pointer; border:2px solid var(--ink);
+  }
+  input[type=range]::-moz-range-thumb{
+    width:14px; height:14px; border-radius:50%; background:var(--gold); cursor:pointer; border:2px solid var(--ink);
+  }
+  .chip-row{ display:flex; flex-wrap:wrap; gap:6px; }
+  .chip{
+    font-family:var(--mono); font-size:11px; padding:5px 9px; border-radius:20px;
+    border:1px solid var(--line-soft); color:var(--text-dim); cursor:pointer;
+    background:transparent; transition:all .12s;
+  }
+  .chip.active{ border-color:var(--teal); color:var(--teal); background:var(--teal-soft); }
+  .chip:hover{ border-color:var(--gold); color:var(--gold); }
+
+  .rail-note{
+    margin-top:22px; padding-top:16px; border-top:1px solid var(--line-soft);
+    font-size:11.5px; color:var(--text-faint); line-height:1.6;
+  }
+  .rail-note b{ color:var(--text-dim); }
+
+  /* ---------- Stat strip ---------- */
+  .stats{
+    display:grid; grid-template-columns:repeat(4,1fr); gap:14px; margin-bottom:20px;
+  }
+  @media (max-width:700px){ .stats{ grid-template-columns:repeat(2,1fr);} }
+  .stat{
+    background:var(--panel); border:1px solid var(--line-soft); border-radius:var(--radius);
+    padding:16px 18px;
+  }
+  .stat .num{
+    font-family:var(--serif); font-size:26px; font-weight:600; color:var(--text);
+  }
+  .stat .lbl{ font-size:11.5px; color:var(--text-faint); margin-top:4px; text-transform:uppercase; letter-spacing:0.06em; }
+  .stat.accent .num{ color:var(--teal); }
+
+  /* ---------- Table controls ---------- */
+  .tbl-head-row{
+    display:flex; justify-content:space-between; align-items:center; margin-bottom:12px; flex-wrap:wrap; gap:10px;
+  }
+  .tbl-head-row h2{
+    font-family:var(--serif); font-size:20px; font-weight:600; margin:0;
+  }
+  .result-count{ font-family:var(--mono); font-size:12px; color:var(--text-faint); }
+
+  .table-wrap{
+    background:var(--panel); border:1px solid var(--line-soft); border-radius:var(--radius); overflow:hidden;
+  }
+  table{ width:100%; border-collapse:collapse; font-size:13px; }
+  thead th{
+    position:sticky; top:0; background:var(--panel-2); z-index:1;
+    text-align:left; padding:12px 14px; font-size:10.5px; text-transform:uppercase;
+    letter-spacing:0.06em; color:var(--text-faint); font-weight:600; cursor:pointer;
+    border-bottom:1px solid var(--line-soft); user-select:none; white-space:nowrap;
+  }
+  thead th:hover{ color:var(--gold); }
+  thead th.sorted{ color:var(--gold); }
+  thead th .arrow{ font-size:9px; margin-left:3px; opacity:0.8; }
+  tbody tr{
+    border-bottom:1px solid var(--line-soft); cursor:pointer; transition:background .1s;
+  }
+  tbody tr:hover{ background:rgba(216,180,92,0.045); }
+  tbody tr:last-child{ border-bottom:none; }
+  td{ padding:11px 14px; white-space:nowrap; }
+  td.name-cell{ white-space:normal; }
+  .stock-name{ font-weight:600; color:var(--text); }
+  .stock-sector{ display:block; font-size:11px; color:var(--text-faint); margin-top:2px; }
+  .rank-badge{
+    font-family:var(--mono); font-size:12px; color:var(--text-dim);
+    display:inline-flex; align-items:center; justify-content:center;
+    width:28px; height:22px; border-radius:5px;
+  }
+  .rank-badge.top{ background:var(--gold-soft); color:var(--gold); font-weight:600; }
+  td.num{ font-family:var(--mono); text-align:right; color:var(--text-dim); }
+  td.num.pos{ color:var(--teal); }
+  td.num.neg{ color:var(--coral); }
+  .potential-cell{ display:flex; align-items:center; gap:8px; justify-content:flex-end; }
+  .potential-bar{
+    width:46px; height:5px; border-radius:3px; background:var(--line-soft); overflow:hidden;
+  }
+  .potential-bar i{ display:block; height:100%; background:linear-gradient(90deg, var(--gold), var(--teal)); }
+  .potential-score{ font-family:var(--mono); font-size:12.5px; font-weight:600; width:32px; text-align:right; }
+  .tag{
+    font-family:var(--mono); font-size:9.5px; letter-spacing:0.04em; text-transform:uppercase;
+    padding:2px 7px; border-radius:20px; border:1px solid; white-space:nowrap;
+  }
+  .tag.high{ color:var(--teal); border-color:rgba(51,201,166,0.4); background:var(--teal-soft); }
+  .tag.watch{ color:var(--gold); border-color:rgba(216,180,92,0.4); background:var(--gold-soft); }
+
+  .empty-state{
+    padding:60px 20px; text-align:center; color:var(--text-faint);
+  }
+  .empty-state .glyph{ font-family:var(--serif); font-size:34px; color:var(--text-dim); margin-bottom:10px; }
+
+  /* ---------- Pagination ---------- */
+  .pager{
+    display:flex; justify-content:center; align-items:center; gap:14px; padding:16px 0 6px;
+    font-family:var(--mono); font-size:12px; color:var(--text-dim);
+  }
+  .pager button{
+    background:var(--panel); border:1px solid var(--line-soft); color:var(--text-dim);
+    border-radius:6px; padding:7px 12px; cursor:pointer; font-family:var(--mono); font-size:12px;
+  }
+  .pager button:hover:not(:disabled){ border-color:var(--gold); color:var(--gold); }
+  .pager button:disabled{ opacity:0.35; cursor:default; }
+
+  footer{
+    padding:26px 5vw 50px; color:var(--text-faint); font-size:11.5px; line-height:1.7;
+    border-top:1px solid var(--line-soft); margin-top:10px;
+  }
+  footer b{ color:var(--text-dim); }
+
+  /* ---------- Drawer ---------- */
+  .drawer-overlay{
+    position:fixed; inset:0; background:rgba(5,8,16,0.6); backdrop-filter:blur(2px);
+    display:none; align-items:stretch; justify-content:flex-end; z-index:50;
+  }
+  .drawer-overlay.open{ display:flex; }
+  .drawer{
+    width:min(420px, 92vw); background:var(--panel); border-left:1px solid var(--line);
+    padding:28px 26px; overflow-y:auto; animation: slide-in .22s ease-out;
+  }
+  @keyframes slide-in{ from{ transform:translateX(24px); opacity:0;} to{ transform:translateX(0); opacity:1;} }
+  .drawer .close-btn{
+    background:none; border:1px solid var(--line-soft); color:var(--text-dim); border-radius:6px;
+    width:30px; height:30px; cursor:pointer; float:right; font-size:14px;
+  }
+  .drawer h2{ font-family:var(--serif); font-size:26px; margin:6px 0 2px; }
+  .drawer .sector-line{ color:var(--text-faint); font-size:12.5px; margin-bottom:4px; }
+  .drawer .business-line{ color:var(--text-dim); font-size:13px; margin-bottom:22px; line-height:1.5; }
+  .metric-grid{ display:grid; grid-template-columns:1fr 1fr; gap:14px; margin-bottom:20px; }
+  .metric{
+    background:var(--panel-2); border:1px solid var(--line-soft); border-radius:8px; padding:12px 14px;
+  }
+  .metric .m-lbl{ font-size:10.5px; text-transform:uppercase; letter-spacing:0.05em; color:var(--text-faint); }
+  .metric .m-val{ font-family:var(--mono); font-size:17px; margin-top:4px; }
+  .potential-block{
+    background:linear-gradient(135deg, rgba(216,180,92,0.1), rgba(51,201,166,0.08));
+    border:1px solid var(--line); border-radius:10px; padding:16px 18px; margin-bottom:20px;
+  }
+  .potential-block .p-top{ display:flex; justify-content:space-between; align-items:baseline; }
+  .potential-block .p-score{ font-family:var(--serif); font-size:34px; font-weight:600; }
+  .potential-block .p-lbl{ font-size:11px; color:var(--text-dim); text-transform:uppercase; letter-spacing:0.06em; }
+  .drawer-note{ font-size:12px; color:var(--text-faint); line-height:1.6; }
+</style>
+</head>
+<body>
+
+<header class="masthead">
+  <div class="masthead-left">
+    <p class="eyebrow">NSE / BSE &middot; Market Cap &gt; ₹500 Cr</p>
+    <h1>The <em>Ledger</em></h1>
+    <p class="sub">A fundamentals screener over 775 mid &amp; large-cap listings — ranked, filtered, and scored for capital strength and growth potential.</p>
+  </div>
+  <div class="masthead-right" id="headerStats">
+    <div id="lastUpdatedStamp" style="color:var(--text-faint); margin-bottom:4px;"></div>
+    <div><span class="num" id="hCount">—</span> companies on record</div>
+    <div><span class="num" id="hSectors">—</span> sectors covered</div>
+  </div>
+</header>
+
+<div class="ticker-wrap">
+  <div class="ticker-track" id="tickerTrack"></div>
+</div>
+
+<main>
+  <aside class="rail">
+    <h3>Filter <button class="reset-btn" id="resetBtn">Reset</button></h3>
+
+    <div class="field">
+      <label for="searchInput">Search company</label>
+      <input type="text" id="searchInput" placeholder="e.g. Colgate, ICICI…">
+    </div>
+
+    <div class="field">
+      <label for="sectorSelect">Sector</label>
+      <select id="sectorSelect">
+        <option value="">All sectors</option>
+      </select>
+    </div>
+
+    <div class="field">
+      <label>Min market cap <span class="val" id="mcapVal">₹500 Cr</span></label>
+      <input type="range" id="mcapSlider" min="0" max="100" value="0">
+    </div>
+
+    <div class="field">
+      <label>Min potential score <span class="val" id="potVal">0</span></label>
+      <input type="range" id="potSlider" min="0" max="95" value="0">
+    </div>
+
+    <div class="field">
+      <label>Quick screens</label>
+      <div class="chip-row">
+        <button class="chip" data-preset="highPotential">High potential</button>
+        <button class="chip" data-preset="lowDebt">Low debt</button>
+        <button class="chip" data-preset="growth">Fast growers</button>
+        <button class="chip" data-preset="undervalued">Low PEG</button>
+      </div>
+    </div>
+
+    <div class="rail-note">
+      <b>Potential score</b> blends value, ROCE, profit &amp; sales growth, debt load, and PEG into one 0–100 read. It's a screening aid, not a recommendation — see footer.
+    </div>
+  </aside>
+
+  <section>
+    <div class="stats" id="statStrip"></div>
+
+    <div class="tbl-head-row">
+      <h2>Ranked listings</h2>
+      <span class="result-count" id="resultCount"></span>
+    </div>
+
+    <div class="table-wrap">
+      <table>
+        <thead>
+          <tr id="tableHeadRow"></tr>
+        </thead>
+        <tbody id="tableBody"></tbody>
+      </table>
+      <div class="empty-state" id="emptyState" style="display:none;">
+        <div class="glyph">No matches</div>
+        <div>Try widening a filter or clearing the search.</div>
+      </div>
+    </div>
+
+    <div class="pager" id="pager"></div>
+  </section>
+</main>
+
+<footer>
+  <b>About this screen.</b> Data reflects a single uploaded snapshot of NSE/BSE-listed companies with market capitalisation above ₹500 Cr, filtered to those with usable fundamental data (P/E, ROCE, growth, debt, PEG). The Potential Score is a transparent composite computed from that data — it is educational and exploratory, not investment advice, and it does not account for price momentum, news, or qualitative risk. Always do independent research or consult a licensed advisor before investing.
+</footer>
+
+<div class="drawer-overlay" id="drawerOverlay">
+  <div class="drawer" id="drawer"></div>
+</div>
+
+<script src="./app-live.js"></script>
+</body>
+</html>
