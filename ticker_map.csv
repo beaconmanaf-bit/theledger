@@ -1,0 +1,776 @@
+company_name,guessed_symbol,confidence
+Merritronix,MENNPIS,50.0
+Kewal Kir.Cloth.,KKCL,50.0
+Basilic Fly Stud,BALAJITELE,50.0
+H P C L,PCBL,50.0
+Bai-Kakaji Poly.,BANKA,50.0
+Ellen.Indl.Gas,ONIDA,51.6
+KRM Ayurveda,PURVA,52.2
+P & G Hygiene,AGI,52.2
+I O C L,UGROCAP,52.6
+N S D L,NDLVENTURE,52.6
+Uni Abex Alloy,APLAPOLLO,53.3
+Modern Malleable,MARALOVER,53.3
+Vinsys IT Serv.,SGFIN,53.8
+Utssav CZ Gold,CCL,53.8
+Sathlokhar Sys.,ASAHIINDIA,53.8
+C D S L,ICDSLTD,54.5
+Auto.Corp.of Goa,ACGL,54.5
+D B Corp,DCBBANK,54.5
+C P C L,OCCLLTD,54.5
+B P C L,OBCL,54.5
+Accent Microcell,RAMCOCEM,54.5
+Team Lease Serv.,ASIANTNE,54.5
+Yash Highvoltage,VOLTAS,54.5
+ICICI Lombard,CGCL,54.5
+L. T. Elevator,DEVX,55.2
+Schneider APW,WINDMACHIN,55.2
+Nippon Life Ind.,UNIONBANK,55.2
+Monolithisch Ind,INDORAMA,55.6
+Emkay Tools,KSL,56.0
+Tinna Rubber,CUBEXTUB,56.0
+Gaudium IVF,GAUDIUMIVF,56.4
+Anondita Medi.,DNAMEDIA,57.1
+Talbros Auto.,JBMA,57.1
+Foseco Crucible,FOSECOIND,57.1
+Prizor Viztech,COMFINTE,57.1
+India Nipp.Elec.,NILE,57.1
+OBSC Perfection,PREMCO,57.1
+Crompton Gr. Con,NDRAUTO,57.1
+I T D C,DISHTV,57.1
+CFF Fluid,CUPID,57.1
+Assoc.Alcohols,EIHAHOTELS,57.1
+I R C T C,ISTLTD,57.1
+Privi Speci.,PRIVISCL,57.9
+Cellecor Gadgets,DEVX,58.1
+Unified Data,AVANTIFEED,58.3
+PNGS Gargi FJ,MMFL,58.3
+Shri Ahimsa,ASHIMASYN,58.8
+UTI AMC,TIPSMUSIC,58.8
+Garden Reach Sh.,GRSE,58.8
+Techno Elec.Engg,TECHNOE,58.8
+S P I C,TIPSMUSIC,58.8
+Modern Insulator,PIONRINV,58.8
+Tuticorin Alkali,TUTIALKA,59.3
+Oracle Fin.Serv.,SGFIN,59.3
+Hemant Surgical,SHIVACEM,59.3
+Covance Softsol,CONCOR,59.3
+Unihealth Hosp,MEDANTA,59.3
+Central Mine Pla,CMPDI,59.3
+Zelio E-Mobility,OLAELEC,59.5
+Volt.Transform.,INDOTECH,59.5
+Bizotic Commer.,CONCORDBIO,60.0
+Influx Health.,SUNLOC,60.0
+Foce India,FOSECOIND,60.0
+Alpex Solar,BLUESTARCO,60.0
+Sacheerome,AKSHARCHEM,60.0
+Sunlite Recycli.,SUNTECK,60.0
+Fabtech Cleanrooms,CEINSYS,60.0
+Arkade,TAKE,60.0
+Chambal Fert.,FCL,60.0
+Bhansali Engg.,BEPL,60.5
+Mobavenue AI Tech,CNL,60.6
+Garuda Cons,RUPA,60.9
+Neetu Yoshi,SHIVACEM,60.9
+Apsis Aerocom,ARIES,60.9
+Airfloa Rail,BIRLACABLE,60.9
+Namo eWaste,DBREALTY,60.9
+Hind.Construct.,MANINFRA,61.1
+Saint-Gob. Sekur,SEKURITIND,61.1
+Systematic Inds.,INDORAMA,61.1
+Ganesh Green,GANESHHOU,61.5
+Canara Robeco,BANARBEADS,61.5
+Dynacons Sys.,DSSL,61.5
+NGL Fine Chem,NGLFINE,61.5
+Stellant Secu.,ELANTAS,61.5
+EIH Assoc.Hotels,ITCHOTELS,61.5
+K P R Mill Ltd,MALUPAPER,61.5
+Kovai Medical,KOVAI,61.9
+Billionbrains,GROWW,61.9
+Elecon Engg.Co,EBGNG,62.1
+Sun Pharma.Inds.,SUDEEPPHRM,62.1
+R M Drip & Sprin,RMDRIP,62.2
+Action Const.Eq.,ACE,62.2
+OSEL Devices,TRAVELFOOD,62.5
+String Metaverse,ZFSTEERING,62.5
+Quality Power El,QPOWER,62.7
+Kalyani Cast-Tec,KALYANI,62.9
+Commerl. Synbags,COMSYN,62.9
+Hind.Aeronautics,HINDALCO,62.9
+A C J K Exports,CGVAK,63.2
+Kirl.Pneumatic,KIRLPNU,63.4
+Indian Metals,PRADPME,63.6
+CLN Energy,ATHERENERG,63.6
+Navin Fluo.Intl.,NAVINFLUOR,63.6
+Vidhi Specialty,VIDHIING,63.8
+South West Pinn.,SOUTHWEST,63.8
+Vikram Thermo,VIKRAMSOLR,64.0
+Aditya AMC,BIRLAMONEY,64.3
+Captain Techno.,CARTRADE,64.3
+Exhicon Events,DECCANCE,64.3
+Valiant Commun.,VALIANTORG,64.5
+Jaro Institute,MANBRO,64.5
+Krishna Defence,SHRIKRISH,64.7
+Vivid Electromech,ONIDA,64.7
+FlySBS Aviation,INDIGO,64.7
+Vinyas Innovativ,INNOVANA,64.7
+Silver Touch,SILVERTUC,64.9
+Mazagon Dock,MAZDOCK,64.9
+Nucleus Soft.,NUCLEUS,64.9
+Rainbow Child.,RAINBOW,65.0
+Shringar House,SHRINGARMS,65.1
+Multi Comm. Exc.,MCX,65.1
+Spectrum Electr.,SPECTRUM,65.2
+Macfos,MARICO,66.7
+Prec. Wires (I),DPWIRES,66.7
+Butterfly Gan Ap,BUTTERFLY,66.7
+Remus Pharma.,PPLPHARMA,66.7
+Denta Water,DATAPATTNS,66.7
+SKM Egg Prod.,SKMEGGPROD,66.7
+Waaree Renewab.,WAAREEENER,66.7
+ADC India,ACC,66.7
+Vintage Coffee,VINCOFE,66.7
+KMC Speciality,DMCC,66.7
+Indo SMC,INDOKEM,66.7
+Shanti Gold,SENCO,66.7
+Goel Construct.,SEMAC,66.7
+Technocraf.Inds.,TECHNOCRAF,66.7
+Sahana Systems,CMSINFO,66.7
+V-Marc India,MARICO,66.7
+SPARC,SEPC,66.7
+Allied Blenders,ABDL,66.7
+Gokul Agro,GOKULAGRO,66.7
+TCS,ITC,66.7
+Manoj Vaibhav,VAIBHAVGBL,66.7
+Concord Control,COUNCODOS,66.7
+Ipca Labs.,IPCALAB,66.7
+Ecos (India),ETHOSLTD,66.7
+Hariom Pipe,HARIOMPIPE,66.7
+High Energy Bat.,POWERINDIA,66.7
+T R I L,ISTLTD,66.7
+Divi's Lab.,DIVISLAB,66.7
+Z-Tech (India),AGRITECH,66.7
+BLS Internat.,ABMINTLLTD,66.7
+Danlaw Tech.,TAALTECH,66.7
+CWD,DCW,66.7
+Solarworld Ene.,SOLARWORLD,66.7
+Aimtron,AIRAN,66.7
+India Finsec,FOSECOIND,66.7
+Bikaji Foods,ADFFOODS,66.7
+Unicommerce,UNIECOM,66.7
+Jindal Drilling,JINDRILL,66.7
+Wealth First Por,WEALTH,68.1
+Interarch Build.,INTERARCH,68.2
+Balmer Law. Inv.,BLIL,68.3
+Vilas Transcore,VOLTAMP,68.6
+Forbes Precision,PRECAM,68.6
+Sobhagya Mercant,SONAL,68.8
+ZF Commercial,COMSYN,68.8
+Latent View,LATENTVIEW,68.8
+Dr Lal Pathlabs,LALPATHLAB,68.8
+Choice Intl.,CHOICEIN,68.8
+Khazanchi Jewell,KALYANKJIL,68.8
+Integra Engg.,ESSENTIA,69.0
+Kronox Lab,KRONOX,69.0
+Q-Line Biotech,INDOUS,69.0
+Bright Outdoor,BRIGHTBR,69.0
+SKF India Indus.,SKFINDUS,69.2
+Share India Sec.,SHAREINDIA,69.2
+Network People,STLNETWORK,69.2
+P & G Health Ltd,MEDANTA,69.6
+Sri Lotus,GLOBUSSPR,69.6
+Inventurus Knowl,IKS,69.6
+Sharda Motor,TMCV,69.6
+TAC Infosec,LCCINFOTEC,69.6
+Freshara Agro,ARIES,69.6
+Manaksia Coated,MANAKSIA,69.6
+Newgen Software,NEWGEN,69.8
+Sona BLW Precis.,SONACOMS,69.8
+PNGS Reva Diamo.,PNGSREVA,69.8
+Alkem Lab,HALEOSLABS,70.0
+Effwa Infra,AGIIL,70.0
+Flair Writing,FLAIR,70.3
+DDev Plastiks,DDEVPLSTIK,70.3
+Jayaswal Neco,JAYNECOIND,70.3
+Pondy Oxides,POCL,70.6
+Garware Tech.,GRWRHITECH,70.6
+Goldiam Intl.,GOLDIAM,70.6
+Veedol Corporat,VEEDOL,70.6
+Alkyl Amines,ALKYLAMINE,70.6
+HDFC AMC,HDFCBANK,70.6
+Enviro Infra,EIEL,70.6
+Jyoti Resins,JYOTIRES,70.6
+J Kumar Infra,JKIL,70.6
+Poojaa Precision Engg.,GALAPREC,70.8
+Alivus Life,ALIVUS,71.0
+Jeena Sikho,JSLL,71.0
+Travel Food,TRAVELFOOD,71.0
+Zensar Tech.,ZENSARTECH,71.0
+Keltech Energies,WAAREEENER,71.0
+Digilogic Systems,DCXINDIA,71.4
+Himadri Special,HSCL,71.4
+Thejo Engg.,THEJO,71.4
+Prudent Corp.,TRIDENT,71.4
+Glaxosmi. Pharma,GLAND,71.4
+Aryaman Fin.Serv,ARYAMAN,71.4
+RNFI Services,ECLERX,71.4
+Datamatics Glob.,DATAMATICS,71.4
+Gala Precis. Eng,GALAPREC,71.4
+Insecticid.India,INSECTICID,71.4
+One Global Serv,ONEGLOBAL,71.4
+Piccadily Agro,PICCADIL,71.8
+Kingfa Science,KINGFA,71.8
+Advait Energy,ATHERENERG,72.0
+Apar Inds.,APARINDS,72.0
+Oriana Power Ltd,PFC,72.0
+Firstsour.Solu.,FSL,72.2
+Shukra Pharma.,SHUKRAPHAR,72.2
+Sh. Rama Multi.,SHREERAMA,72.2
+Asian Energy,ASIANENE,72.7
+Gretex Corporate,GCSL,72.7
+Sheetal Cool,SCPL,72.7
+Knowledge Marine,ABMKNO,72.7
+Kalind,LINDEINDIA,72.7
+Afcom Holdings,ACMESOLAR,72.7
+Macpower CNC,MACPOWER,72.7
+Balu Forge,BHARATFORG,72.7
+Neuland Labs.,NEULANDLAB,72.7
+Nurture Well Industries,SUPREMEIND,73.2
+Emmvee Photovol.,EMMVEE,73.2
+Titan Biotech,MEDICAMEQ,73.3
+Clean Science,SAILIFE,73.3
+Hatsun Agro,HATSUN,73.3
+Vikran Engg.,VIKRAN,73.3
+Kaveri Seed Co.,KSCL,73.3
+Godawari Power,GPIL,73.7
+Senores Pharma.,SENORES,73.7
+Reliance Infra.,RELINFRA,73.7
+ICICI AMC,ICICIBANK,73.7
+Indo Tech.Trans.,INDOTECH,73.7
+Lincoln Pharma.,NATCOPHARM,74.1
+Sky Gold & Diam.,SKYGOLD,74.3
+Emcure Pharma,EMCURE,74.3
+RNIT AI Solution,GOLDTECH,74.3
+Shilchar Tech.,SHILCTECH,74.3
+Fredun Pharma,FREDUN,74.3
+Hexaware Tech.,HEXT,74.3
+RPG LifeScience.,NECLIFE,74.3
+Apollo Hospitals,APOLLOHOSP,74.4
+Krystal Integrat,KRYSTAL,74.4
+Kalpataru Proj.,KALPATARU,75.0
+Kilburn Engg.,KLBRENG-B,75.0
+Bondada Engineer,AHLADA,75.0
+Glenmark Pharma.,GLENMARK,75.0
+Amines & Plast.,AMNPLST,75.0
+Chandan Healthca,AHCL,75.0
+Dr Agarwal's Eye,DRAGARWQ,75.0
+DMCC Speciality,DMCC,75.0
+Seshaasai Tech.,STYL,75.7
+Guj. Themis Bio.,GUJTHEM,75.7
+Kwality Pharma,KPL,75.7
+InfoBeans Tech.,INFOBEAN,75.7
+Endurance Tech.,ENDURANCE,75.7
+Thyrocare Tech.,THYROCARE,75.7
+L&T Technology,LTTS,75.7
+Pudumjee Paper,PDMJEPAPER,75.7
+Hester Bios,HESTERBIO,75.9
+Cams Services,KAPSTON,75.9
+Punjab Chemicals,PCBL,75.9
+Safari Inds.,SAFARI,75.9
+Fine Organic,FAIRCHEMOR,75.9
+Empire Inds.,EMPIND,75.9
+R Systems Intl.,NINSYS,75.9
+Sandur Manganese,SANDUMA,76.2
+Omnitech Engg.,OMNI,76.5
+NIIT Learning,NIITMTS,76.5
+Prostarm Info,PROSTARM,76.5
+Anand Rathi Shar,ANANDRATHI,76.5
+Parth Electrical,MARINE,76.5
+Indo Thai Sec.,INDOTHAI,76.5
+Indo Borax & Ch.,INDOBORAX,76.5
+Suprajit Engg.,SUPRAJIT,76.5
+SBI Funds Mgt.,SBIFUNDS,76.5
+Godrej Consumer,GODREJCP,76.9
+Capacit'e Infra.,CAPACITE,76.9
+IIRM Holdings,KAMAHOLD,76.9
+Shreeji Ship. Gl,SHREEJISPG,76.9
+Rajesh Power,RAJESHEXPO,76.9
+Ganesh Consumer,GANESHCP,76.9
+Chamanlal Setia,CLSEL,76.9
+Millworks Technologies,CAPILLARY,77.3
+Supreme Inds.,SUPREMEIND,77.4
+Magna Electrocas,EBGNG,77.4
+Vadilal Inds.,VADILALIND,77.4
+Natl. Aluminium,GOYALALUM,77.4
+Garware Hi Tech,GRWRHITECH,77.8
+United Polyfab,UNITEDPOLY,77.8
+Strides Pharma,STAR,77.8
+Indian Hotels Co,ITCHOTELS,77.8
+Fujiyama Power,UTLSOLAR,77.8
+Bombay Super Hyb,BSHSL,78.0
+Taneja Aerospace,TANAA,78.0
+Jagsonpal Pharma,JAGSNPHARM,78.0
+Caplin Point Lab,CAPLIPOINT,78.0
+EPack PrefabTech,EPACKPEB,78.0
+Shivalik Bimetal,SBCL,78.0
+Eco Recyc.,ECORECO,78.3
+IIFL Capital,SAICAPI,78.3
+J B Chemicals &,BODALCHEM,78.6
+Venus Pipes,VENUSPIPES,78.6
+Indian Energy Ex,IEX,78.6
+Pidilite Inds.,PIDILITIND,78.8
+Xchanging Sol.,XCHANGING,78.8
+Syncom Formul.,SYNCOMF,78.8
+Jindal Poly Inve,JINDALPOLY,78.8
+Eveready Inds.,EVEREADY,78.8
+Saatvik Green,SAATVIKGL,78.8
+Aurionpro Sol.,AURIONPRO,78.8
+HMA Agro Inds.,HMAAGRO,78.8
+Sh. Jagdamba Pol,SHRJAGP,78.9
+Sika Interplant,SIKA,78.9
+Behari Lal Engg.,BLEL,78.9
+Websol Energy,SOLEX,80.0
+Britannia Inds.,BRITANNIA,80.0
+Gaja Alternative Asset,GAJA,80.0
+Siyaram Silk,SIYSIL,80.0
+Jain Resource,KNAGRI,80.0
+Indiamart Inter.,INDIAMART,80.0
+Monarch Networth,MONARCH,80.0
+Sambhv Steel,SAMBHV,80.0
+Jyoti CNC Auto.,JYOTICNC,80.0
+Coromandel Inter,COROMANDEL,80.0
+Lloyds Engineeri,LLOYDSENGG,80.0
+KP Green Engg.,KPIGREEN,80.0
+Syrma SGS Tech.,SYRMA,80.0
+Xtranet Techno.,XTRANET,80.0
+Railtel Corpn.,RAILTEL,80.0
+Tembo Global,PREMCO,80.0
+Indrapr.Medical,INDRAMEDCO,80.0
+Dharmaj Crop,DHARMAJ,80.0
+Jubilant Agri,JUBLINGREA,80.0
+The Bombay Burmah,BBTC,81.0
+Thangamayil Jew.,THANGAMAYL,81.1
+Jamna Auto Inds.,JAMNAAUTO,81.1
+Antelopus Selan,ANTELOPUS,81.1
+Diffusion Eng,DIFFNKG,81.2
+Bayer Crop Sci.,BAYERCROP,81.2
+Hind. Unilever,HINDUNILVR,81.2
+Kirl. Brothers,KIRLOSBROS,81.2
+Sanofi Consumer,SANWARIA,81.2
+Zydus Lifesci.,ZYDUSLIFE,81.2
+Borosil Renew.,BORORENEW,81.2
+DC Infotech,3IINFOLTD,81.8
+GE Shipping Co,SCI,81.8
+Vardhman Special,VSSL,82.1
+Pearl Global Ind,PGIL,82.1
+Arisinfra Solu.,ARIS,82.4
+Honeywell Auto,HONAUT,82.4
+Sunshield Chem.,SUNSHIEL,82.4
+Jindal Stain.,JSL,82.8
+Technocraft Ven.,TECHNOCRAF,83.3
+Safe Enterprises,SPCENET,83.3
+Sarda Energy,KARMAENG,83.3
+Gandhi Spl. Tube,GANDHITUBE,83.3
+L G Balakrishnan,LGBBROSLTD,83.3
+Zuari Agro Chem.,ZUARI,83.3
+P N Gadgil Jewe.,PNGJL,83.3
+Dhabriya Poly.,DHABRIYA,83.9
+Viviana Power,VIVIANA,83.9
+Cera Sanitary.,CERA,83.9
+Kothari Petroche,KOTHARIPET,84.2
+Sunrakshakk Inds,SUNRAKSHAK,84.2
+Ratnamani Metals,RATNAMANI,84.2
+Amrutanjan Healt,AMRUTANJAN,84.2
+Federal-Mogul Go,FMGOETZE,84.2
+Intellect Design,INTELLECT,84.2
+Bajaj Consumer,BAJAJCON,84.8
+Mangalam World.,MWL,84.8
+Innovana Think.,INNOVANA,84.8
+Welspun Enterp,WELENT,84.8
+M & B Engineer.,MBEL,85.7
+Rajputana Stain.,RSL,85.7
+Kamat Hotels,KAMATHOTEL,85.7
+Steel Str. Wheel,SSWL,85.7
+Gulf Oil Lubric.,GULFOILLUB,85.7
+Exato Technologies,TATATECH,85.7
+Ahluwalia Contr.,AHLUCONT,85.7
+Power Mech Proj.,POWERMECH,85.7
+Supriya Lifesci.,SUPRIYA,85.7
+NDR Auto Compon.,NDRAUTO,85.7
+Kernex Microsys.,KERNEX,85.7
+Transport Corp.,TCI,85.7
+Suraksha Diagno.,SURAKSHA,85.7
+Manorama Indust.,MANORAMA,85.7
+Metropolis Healt,METROPOLIS,86.5
+Motherson Wiring,MSUMI,86.5
+Berger Paints,BERGEPAINT,86.7
+Fineotex Chem,FCL,86.7
+Algoquant Fin,ALGOQUANT,86.7
+SMT Engineering,MBEL,86.7
+Tenneco Clean,TENNIND,86.7
+Danish Power,ADANIPOWER,87.0
+Banco Products,BANCOINDIA,87.5
+Motisons Jewel,MOTISONS,87.5
+Sumitomo Chemi.,SUMICHEM,87.5
+Sundram Fasten.,SUNDRMFAST,87.5
+KFin Technolog.,KFINTECH,87.5
+Tata Technolog.,TATATECH,87.5
+JK Tyre & Indust,JKTYRE,87.5
+3B Blackbio,3BBLACKBIO,88.0
+Dixon Technolog.,DIXON,88.2
+Anand Rathi Wea.,ANANDRATHI,88.2
+Marine Electric.,MARINE,88.2
+Studds Accessor.,STUDDS,88.2
+Chembond Chemic.,CHEMBONDCH,88.2
+Blue Jet Health,BLUEJET,88.2
+Dam Capital Advi,DAMCAPITAL,88.9
+General Insuranc,GICRE,88.9
+Guj Pipavav Port,GPPL,88.9
+Ivalue Infosolut,IVALUE,88.9
+The Anup Enginee,ANUP,88.9
+RBZ Jewellers Lt,RBZJEWEL,89.7
+J K Cements,JKCEMENT,90.0
+Life Insurance,LICI,90.3
+Supreme Petroch.,SPLPETRO,90.9
+Varroc Engineer,VARROC,90.9
+Transrail Light,TRANSRAILL,90.9
+SJS Enterprises,SJS,90.9
+Centum Electron,CENTUM,90.9
+Campus Activewe.,CAMPUS,90.9
+Kanpur Plastipa.,KANPRPLA,90.9
+Ashapura Minech.,ASHAPURMIN,90.9
+AWL Agri Busine.,AWL,90.9
+Colgate-Palmoliv,COLPAL,90.9
+Jay Bharat Maru.,JAYBARMARU,90.9
+Bharat Electron,BEL,90.9
+KPIT Technologi.,KPITTECH,90.9
+Onward Technolog,ONWARDTEC,91.4
+Platinum Industr,PLATIND,91.4
+Atlanta Electric,ATLANTAELE,91.4
+Asian Hotels (W),AHLWEST,91.4
+Hyundai Motor I,HYUNDAI,92.9
+Ingersoll-Rand,INGERRAND,92.9
+Gallantt Ispat L,GALLANTT,93.3
+Black Rose Indus,BLACKROSE,93.8
+Fermenta Biotec.,FERMENTA,93.8
+Apcotex Industri,APCOTEXIND,94.1
+L T Foods,LTFOODS,94.1
+V-Guard Industri,VGUARD,94.1
+Molbio Diagnosti,MOLBIO,94.1
+International Gemological Instit,IGIL,95.5
+NRB Bearings,NRBBEARING,95.7
+G M Breweries,GMBREW,96.0
+D.P. Abhushan,DPABHUSHAN,96.3
+Modi's Navnirman,MODIS,96.8
+Cemindia Project,CEMPRO,97.0
+Rashi Peripheral,RPTECH,97.0
+Stylam Industrie,STYLAMIND,97.0
+Radhika Jeweltec,RADHIKAJWE,97.0
+Pix Transmission,PIXTRANS,97.0
+GPT Infraproject,GPTINFRA,97.0
+KSH Internationa,KSHINTL,97.0
+C.E. Info System,MAPMYINDIA,97.0
+Acutaas Chemical,ACUTAAS,97.0
+Euro Pratik Sale,EUROPRATIK,97.0
+Blue Dart Expres,BLUEDART,97.0
+Accelya Solution,ACCELYA,97.0
+Olectra Greentec,OLECTRA,97.0
+Sigma Advanced System,SIGMAADV,97.7
+Gland Pharma,GLAND,100.0
+Nupur Recyclers,NRL,100.0
+KRBL,KRBL,100.0
+Epigral,EPIGRAL,100.0
+Patel Retail,PATELRMART,100.0
+Aptech,APTECHT,100.0
+GE Power,GVPIL,100.0
+Timex Group,TIMEX,100.0
+Nestle India,NESTLEIND,100.0
+Gillette India,GILLETTE,100.0
+Mindteck (India),MINDTECK,100.0
+SPR Auto Technologies,SHRIPISTON,100.0
+AIA Engineering,AIAENG,100.0
+Birlasoft Ltd,BSOFT,100.0
+Kalyan Jewellers,KALYANKJIL,100.0
+Thomas Scott,THOMASCOTT,100.0
+EIH,EIHOTEL,100.0
+Vidya Wires,VIDYAWIRES,100.0
+Anlon Healthcare,AHCL,100.0
+Pasupati Acrylon,PASUPTAC,100.0
+Rolex Rings,ROLEXRINGS,100.0
+Pradeep Metals,PRADPME,100.0
+Grindwell Norton,GRINDWELL,100.0
+Aries Agro,ARIES,100.0
+Elantas Beck,ELANTAS,100.0
+Blue Star,BLUESTARCO,100.0
+Pace Digitek,PACEDIGITK,100.0
+Vinati Organics,VINATIORGA,100.0
+GPT Healthcare,GPTHEALTH,100.0
+SEAMEC Ltd,SEAMECLTD,100.0
+KEI Industries,KEI,100.0
+AGI Infra,AGIIL,100.0
+Metro Brands,METROBRAND,100.0
+Bharat Seats,BHARATSE,100.0
+Innovision,INNOVISION,100.0
+Dabur India,DABUR,100.0
+Sirca Paints,SIRCA,100.0
+GNG Electronics,EBGNG,100.0
+Va Tech Wabag,WABAG,100.0
+Vesuvius India,VESUVIUS,100.0
+Grauer & Weil,GRAUWEIL,100.0
+Bharti Hexacom,BHARTIHEXA,100.0
+Bosch,BOSCHLTD,100.0
+Automotive Axles,AUTOAXLES,100.0
+Uniparts India,UNIPARTS,100.0
+Venus Remedies,VENUSREM,100.0
+Uno Minda,UNOMINDA,100.0
+Varun Beverages,VBL,100.0
+Ramco Systems,RAMCOSYS,100.0
+Subros,SUBROS,100.0
+Magellanic Cloud,MCLOUD,100.0
+Orient Electric,ORIENTELEC,100.0
+Indo Amines,INDOAMIN,100.0
+ADF Foods,ADFFOODS,100.0
+U P Hotels,UPHOT,100.0
+Rites,RITES,100.0
+Elgi Equipments,ELGIEQUIP,100.0
+Mphasis,MPHASIS,100.0
+Modi Naturals,MODINATUR,100.0
+Black Box,BBOX,100.0
+TPL Plastech,TPLPLASTEH,100.0
+Advance Agrolife,ADVANCE,100.0
+Park Medi World,PARKHOSPS,100.0
+Usha Martin,USHAMART,100.0
+Indus Towers,INDUSTOWER,100.0
+AGI Greenpac,AGI,100.0
+Ador Welding,ADOR,100.0
+Refex Industries,REFEX,100.0
+JSW Dulux,JSWDULUX,100.0
+Petronet LNG,PETRONET,100.0
+Welspun Corp,WELCORP,100.0
+ICRA,ICRA,100.0
+Tech Mahindra,TECHM,100.0
+Kajaria Ceramics,KAJARIACER,100.0
+Skipper,SKIPPER,100.0
+Coforge,COFORGE,100.0
+Maruti Suzuki,MARUTI,100.0
+GSP Crop Science,GSPCROP,100.0
+Panama Petrochem,PANAMAPET,100.0
+CEAT,CEATLTD,100.0
+Godrej Agrovet,GODREJAGRO,100.0
+Beta Drugs Ltd,BETA,100.0
+Linc,LINC,100.0
+Honasa Consumer,HONASA,100.0
+Astral,ASTRAL,100.0
+Glottis,GLOTTIS,100.0
+Vedant Fashions,MANYAVAR,100.0
+Shakti Pumps,SHAKTIPUMP,100.0
+Panache Digilife,PANACHE,100.0
+Dhanuka Agritech,DHANUKA,100.0
+Master Trust,MASTERTR,100.0
+Ajax Engineering,AJAXENGG,100.0
+Creative Newtech,CNL,100.0
+Ganesh Housing,GANESHHOU,100.0
+Marksans Pharma,MARKSANS,100.0
+Indegene,INDGN,100.0
+Wheels India,WHEELS,100.0
+Kusumgar,KUSUMGAR,100.0
+Quess Corp,QUESS,100.0
+Pfizer,PFIZER,100.0
+Expleo Solutions,EXPLEOSOL,100.0
+DOMS Industries,DOMS,100.0
+Dhoot Transmission,DHOOTTRANS,100.0
+Avanti Feeds,AVANTIFEED,100.0
+Redtape,REDTAPE,100.0
+Pricol Ltd,PRICOLLTD,100.0
+Rajoo Engineers,RAJOOENG,100.0
+KSB,KSB,100.0
+Mayur Uniquoters,MAYURUNIQ,100.0
+Havells India,HAVELLS,100.0
+Indo-MIM,INDOMIM,100.0
+Signpost India,SIGNPOST,100.0
+Vimta Labs,VIMTALABS,100.0
+TBO Tek,TBOTEK,100.0
+Redington,REDINGTON,100.0
+Gujarat Energy,GUJENERGY,100.0
+NESCO,NESCO,100.0
+Marsons,MARSONS,100.0
+ASK Automotive,ASKAUTOLTD,100.0
+Saksoft,SAKSOFT,100.0
+Menon Bearings,MENONBE,100.0
+Shanthi Gears,SHANTIGEAR,100.0
+Gabriel India,GABRIEL,100.0
+Happy Forgings,HAPPYFORGE,100.0
+J.G.Chemicals,JGCHEM,100.0
+IFB Industries,IFBIND,100.0
+Timken India,TIMKEN,100.0
+Gulshan Polyols,GULPOLY,100.0
+D-Link India,DLINKINDIA,100.0
+Amal,AMAL,100.0
+Dynamic Cables,DYCL,100.0
+CARE Ratings,CARERATING,100.0
+Tanla Platforms,TANLA,100.0
+Asian Paints,ASIANPAINT,100.0
+United Spirits,UNITDSPR,100.0
+POCL Enterprises,POEL,100.0
+Ashoka Buildcon,ASHOKA,100.0
+Disa India,DISAQ,100.0
+Ceinsys Tech,CEINSYS,100.0
+TAAL Tech,TAALTECH,100.0
+NMDC,NMDC,100.0
+EPL Ltd,EPL,100.0
+TCPL Packaging,TCPLPACK,100.0
+Indraprastha Gas,IGL,100.0
+Swaraj Suiting,SWARAJ,100.0
+Indigo Paints,INDIGOPNTS,100.0
+Mastek,MASTEK,100.0
+Nitta Gelatin,NITTAGELA,100.0
+Alldigi Tech,ALLDIGI,100.0
+Schaeffler India,SCHAEFFLER,100.0
+Emami,EMAMILTD,100.0
+R R Kabel,RRKABEL,100.0
+VST Industries,VSTIND,100.0
+Sudeep Pharma,SUDEEPPHRM,100.0
+Bajaj Auto,BAJAJ-AUTO,100.0
+Jyothy Labs,JYOTHYLAB,100.0
+Carraro India,CARRARO,100.0
+CSM Technologies,CSM,100.0
+Global Education,GLOBAL,100.0
+CMS Info Systems,CMSINFO,100.0
+Jash Engineering,JASH,100.0
+Saregama India,SAREGAMA,100.0
+Carysil,CARYSIL,100.0
+Wipro,WIPRO,100.0
+Fiem Industries,FIEMIND,100.0
+Kamdhenu,KAMDHENU,100.0
+LTM,LTM,100.0
+Raymond Realty,RAYMONDREL,100.0
+Benares Hotels,BENARAS,100.0
+JNK,JNKINDIA,100.0
+Goodyear India,GOODYEAR,100.0
+GHCL,GHCL,100.0
+Route Mobile,ROUTE,100.0
+Cello World,CELLO,100.0
+Matrimony.com,MATRIMONY,100.0
+Concord Biotech,CONCORDBIO,100.0
+Foseco India,FOSECOIND,100.0
+Bharat Rasayan,BHARATRAS,100.0
+BLS E-Services,BLSE,100.0
+Gravita India,GRAVITA,100.0
+Chalet Hotels,CHALET,100.0
+Aditya Vision,AVL,100.0
+Global Health,MEDANTA,100.0
+Mahanagar Gas,MGL,100.0
+Natco Pharma,NATCOPHARM,100.0
+Adani Power,ADANIPOWER,100.0
+Ceigall India,CEIGALL,100.0
+Oberoi Realty,OBEROIRLTY,100.0
+20 Microns,20MICRONS,100.0
+Lupin,LUPIN,100.0
+Axtel Industries,AXTEL,100.0
+Univastu India,UNIVASTU,100.0
+Tata Elxsi,TATAELXSI,100.0
+Godfrey Phillips,GODFRYPHLP,100.0
+Sharda Cropchem,SHARDACROP,100.0
+MSTC,MSTCLTD,100.0
+HCL Technologies,HCLTECH,100.0
+Arrow Greentech,ARROWGREEN,100.0
+Eicher Motors,EICHERMOT,100.0
+Vikram Solar,VIKRAMSOLR,100.0
+Engineers India,ENGINERSIN,100.0
+Sonata Software,SONATSOFTW,100.0
+Premier Polyfilm,PREMIERPOL,100.0
+SML Mahindra,SMLMAH,100.0
+NBCC,NBCC,100.0
+Modison,MODISONLTD,100.0
+NCC,NCC,100.0
+Affle 3i,AFFLE,100.0
+Bliss GVS Pharma,BLISSGVS,100.0
+EID Parry,EIDPARRY,100.0
+Filatex India,FILATEX,100.0
+APL Apollo Tubes,APLAPOLLO,100.0
+Advit Jewels,RAMBHAJO,100.0
+LG Electronics,LGEINDIA,100.0
+Steelcast,STEELCAS,100.0
+CRISIL,CRISIL,100.0
+Borana Weaves,BORANA,100.0
+Kennametal India,KENNAMET,100.0
+Polycab India,POLYCAB,100.0
+Corona Remedies,CORONA,100.0
+Premier Energies,PREMIERENE,100.0
+Inox India,INOXINDIA,100.0
+KEC International,KEC,100.0
+Scoda Tubes,SCODATUBES,100.0
+RACL Geartech,RACLGEAR,100.0
+India Pesticides,IPL,100.0
+FDC,FDC,100.0
+Star Cement,STARCEMENT,100.0
+Time Technoplast,TIMETECHNO,100.0
+Dodla Dairy,DODLA,100.0
+KSE,KSE,100.0
+Knack Packaging,KNACK,100.0
+Persistent Systems,PERSISTENT,100.0
+Ajanta Pharma,AJANTPHARM,100.0
+eClerx Services,ECLERX,100.0
+Dolat Algotech,DOLATALGO,100.0
+Vishnu Chemicals,VISHNU,100.0
+Lodha Developers,LODHA,100.0
+Vaibhav Global,VAIBHAVGBL,100.0
+Kross Ltd,KROSS,100.0
+Control Print,CONTROLPR,100.0
+Orient Cement,ORIENTCEM,100.0
+Deep Industries,DEEPINDS,100.0
+Sun TV Network,SUNTV,100.0
+Coal India,COALINDIA,100.0
+Suzlon Energy,SUZLON,100.0
+Hero Motocorp,HEROMOTOCO,100.0
+Triveni Turbine,TRITURBINE,100.0
+Tata Motors,TMCV,100.0
+Force Motors,FORCEMOT,100.0
+SRM Contractors,SRM,100.0
+Finolex Cables,FINCABLES,100.0
+Iris Clothings,IRISDOREME,100.0
+A B Infrabuild,ABINFRA,100.0
+Vedanta,VEDL,100.0
+Indiabulls,IBULLSLTD,100.0
+Man Industries,MANINDS,100.0
+Krishival Foods,KRISHIVAL,100.0
+Novartis India,NOVARTIND,100.0
+Oswal Pumps,OSWALPUMPS,100.0
+Waaree Energies,WAAREEENER,100.0
+ITC,ITC,100.0
+Shankara Buildpro,BUILDPRO,100.0
+K.P. Energy,KPEL,100.0
+MPS,MPSLTD,100.0
+Cummins India,CUMMINSIND,100.0
+Infosys,INFY,100.0
+GK Energy,GKENERGY,100.0
+Hawkins Cookers,HAWKINCOOK,100.0
+Hindustan Copper,HINDCOPPER,100.0
+Om Power Transmission,OMPOWER,100.0
+Lohia Corp,LCL,100.0
+Abbott India,ABBOTINDIA,100.0
+MRF,MRF,100.0
+CCL Products,CCL,100.0
+Surya Roshni,SURYAROSNI,100.0
+Windlas Biotech,WINDLAS,100.0
+Marico,MARICO,100.0
+Frontier Springs,FRONTSP,100.0
+Crizac,CRIZAC,100.0
+NINtec Systems,NINSYS,100.0
+Sanofi India,SANOFI,100.0
+Midwest,MIDWESTLTD,100.0
+Cipla,CIPLA,100.0
+Granules India,GRANULES,100.0
+Sanghvi Movers,SANGHVIMOV,100.0
+eMudhra,EMUDHRA,100.0
+Powerica Ltd,POWERICA,100.0
+Swaraj Engines,SWARAJENG,100.0
+HBL Engineering,HBLENGINE,100.0
+BSE,BSE,100.0
+Castrol India,CASTROLIND,100.0
+Page Industries,PAGEIND,100.0
+Esab India,ESABINDIA,100.0
+Hindustan Zinc,HINDZINC,100.0
+Tips Music,TIPSMUSIC,100.0
+Indosolar,WAAREEINDO,100.0
+Ksolves India,KSOLVES,100.0
